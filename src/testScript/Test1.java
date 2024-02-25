@@ -12,7 +12,7 @@ public class Test1
 		System.setProperty("webdriver.gecko.driver","./geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.facebook.com");
-		driver.close();
+		driver.close(); 
 		
 	}
 }
